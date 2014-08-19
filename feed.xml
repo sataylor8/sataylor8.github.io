@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stauffer Taylor</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 18 Aug 2014 23:16:51 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Aug 2014 23:16:51 -0500</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Software Development Engineer Intern</title>
+        <description>
+</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 -0500</pubDate>
+        <link>/software%20development/2014/07/18/Software-Development-Engineer-Intern/</link>
+        <guid isPermaLink="true">/software%20development/2014/07/18/Software-Development-Engineer-Intern/</guid>
+        
+        
+        <category>software development</category>
+        
+      </item>
+    
+      <item>
+        <title>Quality Assurance Intern</title>
+        <description>
+</description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 -0500</pubDate>
+        <link>/quality%20assurance/2014/07/17/Quality-Assurance-Intern/</link>
+        <guid isPermaLink="true">/quality%20assurance/2014/07/17/Quality-Assurance-Intern/</guid>
+        
+        
+        <category>quality assurance</category>
+        
+      </item>
+    
+      <item>
+        <title>Computer Graphics</title>
+        <description>
+</description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 -0500</pubDate>
+        <link>/web%20development/2014/07/16/Computer-Graphics/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/16/Computer-Graphics/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+  </channel>
+</rss>
