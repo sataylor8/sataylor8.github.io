@@ -6572,6 +6572,10 @@ a.thumbnail.active {
   width : 30vh;
   height : 30vh;
 }
+.btn-mobile {
+  height: 10vw;
+  font-size: 5vw;
+}
 .backdrop{
   background-color: #d1d1d1;
   padding-top: .5%;
