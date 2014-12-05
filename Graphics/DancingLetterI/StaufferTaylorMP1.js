@@ -45,7 +45,7 @@ function start(){
 		document.onkeydown = handleKey;
 		document.addEventListener('touchstart', function(e){
 		var touchobj = e.changedTouches[0]
-		if(parseInt(touchobj.clientY) <= window.innerHeight/2) 
+		if(parseInt(touchobj.clientY) <= window.innerHeight¡/2) 
 		{
 				currentlyPressedKeys[68] = !currentlyPressedKeys[68];
 		}
