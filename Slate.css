@@ -6568,10 +6568,6 @@ a.thumbnail.active {
 .panel-info .panel-heading {
   border-color: #000;
 }
-.Album {
-  width : 30vh;
-  height : 30vh;
-}
 .btn-mobile {
   height: 10vw;
   font-size: 5vw;
@@ -7215,5 +7211,17 @@ a.thumbnail.active {
   }
   .col-lg-offset-0 {
     margin-left: 0;
+  }
+  .Album {
+  width : 40vh;
+  height : 40vh;
+  }
+  .mylink:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  .mylink{
+    color: inherit;
+    text-decoration: none;
   }
 }
