@@ -5,12 +5,29 @@ window.mobilecheck = function() {
 }
 
 function CheckMobile(){
+	var groovesharks = document.getElementsByClassName('Grooveshark');
+	var buttons = document.getElementsByClassName('btn-default');
+	var tracknames = document.getElementsByClassName('Trackname');
+	var albums = document.getElementsByClassName('Album');
+
 	if(window.mobilecheck() == true)
 	{
-		var buttons = document.getElementsByClassName('btn-default');
-		for (var i = 0; i < buttons.length; ++i) {
-	    	var item = buttons[i];  
-	   		item.className += " btn-mobile";
+		//Make button text bigger
+		if(buttons.length > 0){
+			var Length = buttons.length;
+			for (var i = 0; i < Length; ++i) {
+		    	var item = buttons[i];  
+		   		item.className += " btn-mobile";
+		   	}
+		}
+
+	   	//Resize album art
+	   	if(albums.length >0){
+	   		var Length = albums.length;
+	   		for(var i=0; i<Length; i++){
+	   			var album = albums[i];
+	   			album.className += " Album-mobile";
+	   		}
 	   	}
 	}
 }

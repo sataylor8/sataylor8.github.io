@@ -185,6 +185,28 @@ td,
 th {
   padding: 0;
 }
+.Album {
+  width : 40vh;
+  height : 40vh;
+}
+.Album-mobile {
+  width : 20vh;
+  height : 20vh;
+}
+.mylink:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.mylink{
+  color: inherit;
+  text-decoration: none;
+}
+.Trackname{
+  visibility: hidden;
+}
+.Shown{
+  visibility: visible;
+}
 @media print {
   * {
     text-shadow: none !important;
@@ -7211,17 +7233,5 @@ a.thumbnail.active {
   }
   .col-lg-offset-0 {
     margin-left: 0;
-  }
-  .Album {
-  width : 40vh;
-  height : 40vh;
-  }
-  .mylink:hover {
-    color: inherit;
-    text-decoration: none;
-  }
-  .mylink{
-    color: inherit;
-    text-decoration: none;
   }
 }
