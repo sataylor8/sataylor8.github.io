@@ -194,11 +194,11 @@ th {
   height : 20vh;
 }
 .mylink:hover {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 .mylink{
-  color: inherit;
+  color: #0d3462;
   text-decoration: none;
 }
 .Trackname{
