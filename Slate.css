@@ -185,22 +185,6 @@ td,
 th {
   padding: 0;
 }
-.Album {
-  width : 40vh;
-  height : 40vh;
-}
-.Album-mobile {
-  width : 20vh;
-  height : 20vh;
-}
-.mylink:hover {
-  color: white;
-  text-decoration: none;
-}
-.mylink{
-  color: #0d3462;
-  text-decoration: none;
-}
 .Trackname{
   visibility: hidden;
 }
@@ -6195,10 +6179,7 @@ button.close {
   }
 }
 .navbar {
-  background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
-  background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
-  background-image: linear-gradient(#545454, #545454 60%, #545454 );
-  background-repeat: no-repeat;
+  background-color: #3d2750;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
   filter: none;
   border: 1px solid rgba(0, 0, 0, 0.6);
