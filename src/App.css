@@ -1,0 +1,19 @@
+.App_NavBar {
+  background-color: white;
+  padding: 0 !important;
+}
+
+.App_Container {
+  max-width: 1340px;
+  margin: auto;
+  margin-top: 100px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.App_SpotifyPlayerContainer {
+  justify-content: center;
+  display: flex;
+  iframe {
+    background-color: red;
+  }
+}
