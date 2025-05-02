@@ -18,13 +18,11 @@ function App() {
 
   return (
     <div className={"App_Root"}>
-      <Navbar expand="lg" className="App_NavBar" sticky="top">
-        <Container>
-          <div className="App_SpotifyPlayer">
-            <div id="SpotifyPlayer" />
-          </div>
-        </Container>
-      </Navbar>
+      <div className="App_NavBar">
+        <div className="App_SpotifyPlayer">
+          <div id="SpotifyPlayer" />
+        </div>
+      </div>
       <Dropdown className={"App_Season_Dropdown"}>
         <Dropdown.Toggle variant="secondary">
           Season
