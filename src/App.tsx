@@ -1,5 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
 import "./App.css";
 import { Dropdown } from 'react-bootstrap';
 import { useState } from 'react';
