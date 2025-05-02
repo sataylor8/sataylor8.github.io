@@ -25,7 +25,7 @@ function App() {
           </div>
         </Container>
       </Navbar>
-      <Dropdown>
+      <Dropdown className={"App_Season_Dropdown"}>
         <Dropdown.Toggle variant="secondary">
           Season
         </Dropdown.Toggle>
