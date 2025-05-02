@@ -2,18 +2,24 @@
   background-image: url('./Assets/Background.jpg');
   min-width: 360px;
   padding-bottom: 1px;
+  overflow: hidden;
 }
 
 .App_NavBar {
-  background-color: rgb(79, 79, 79);
+  background-color: transparent;
   padding: 0 !important;
-  height: 100px
+  height: 100px;
+}
+
+.App_Season_Dropdown {
+  top: -80px;
+  left: 20px;
+  z-index: 1021;
 }
 
 .App_Container {
   max-width: 1440px;
   margin: auto;
-  margin-top: 100px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 

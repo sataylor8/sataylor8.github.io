@@ -102,7 +102,7 @@ const Season1: Album[] = [
         FavoriteTracks: [{
             Title: "Maps",
             Submitters: ["Matt"],
-            SpotifyUrl: ""
+            SpotifyUrl: "3lDjsSqcbZ110eJkUfFm4m"
         },
         {
             Title: "Lionheart",

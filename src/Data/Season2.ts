@@ -8,7 +8,7 @@ const Season2: Album[] = [
         Submitter: "Matt",
         FavoriteTracks: [],
         LeastFavoritTracks: [],
-        ImageURl: "",
+        ImageURl: "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a",
         IconColor: ""
     },
     {

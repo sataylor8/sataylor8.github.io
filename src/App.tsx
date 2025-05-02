@@ -26,20 +26,20 @@ function App() {
         </Container>
       </Navbar>
       <Dropdown>
-            <Dropdown.Toggle variant="secondary">
-              Season
-            </Dropdown.Toggle>            
-            <Dropdown.Menu>
-              {ActiveSeasons.map(seasonNumber => {
-                return <Dropdown.Item 
-                        onClick={() => { setActiveSeason(seasonNumber) }}
-                        key={`Season${seasonNumber}`}>{`Season ${seasonNumber}`}
-                      </Dropdown.Item>
-              })}
-            </Dropdown.Menu>
-          </Dropdown>
+        <Dropdown.Toggle variant="secondary">
+          Season
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+          {ActiveSeasons.map(seasonNumber => {
+            return <Dropdown.Item
+              onClick={() => { setActiveSeason(seasonNumber) }}
+              key={`Season${seasonNumber}`}>{`Season ${seasonNumber}`}
+            </Dropdown.Item>
+          })}
+        </Dropdown.Menu>
+      </Dropdown>
       <div className={"App_Container"}>
-        <SeasonView Albums={Seasons[activeSeason -1]}/>
+        <SeasonView Albums={Seasons[activeSeason - 1]} />
       </div>
     </div>
   );
