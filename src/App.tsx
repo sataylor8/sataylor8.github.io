@@ -17,14 +17,15 @@ function App() {
   const [activeSeason, setActiveSeason] = useState(1);
 
   return (
-    <>
+    <div className={"App_Root"}>
       <Navbar expand="lg" className="App_NavBar" sticky="top">
         <Container>
-          <Navbar.Brand >Album Club</Navbar.Brand>
-          <Navbar.Brand className="App_SpotifyPlayer">
+          <div className="App_SpotifyPlayer">
             <div id="SpotifyPlayer" />
-          </Navbar.Brand>
-          <Dropdown>
+          </div>
+        </Container>
+      </Navbar>
+      <Dropdown>
             <Dropdown.Toggle variant="secondary">
               Season
             </Dropdown.Toggle>            
@@ -37,12 +38,10 @@ function App() {
               })}
             </Dropdown.Menu>
           </Dropdown>
-        </Container>
-      </Navbar>
       <div className={"App_Container"}>
         <SeasonView Albums={Seasons[activeSeason -1]}/>
       </div>
-    </>
+    </div>
   );
 }
 

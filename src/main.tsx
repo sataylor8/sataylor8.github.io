@@ -8,7 +8,7 @@ import "./Globals.ts";
 window.onSpotifyIframeApiReady = (IFrameAPI: any) => {
   const element = document.getElementById('SpotifyPlayer');
   const options = {
-      uri: 'spotify:track:6TMXUFy1zNN5JqNhoM0Odw',
+      uri: '',
       height: '80',
       width: '400',
     };

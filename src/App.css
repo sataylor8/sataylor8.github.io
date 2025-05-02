@@ -1,19 +1,25 @@
+.App_Root {
+  background-image: url('./Assets/Background.jpg');
+  min-width: 360px;
+  padding-bottom: 1px;
+}
+
 .App_NavBar {
-  background-color: white;
+  background-color: rgb(79, 79, 79);
   padding: 0 !important;
+  height: 100px
 }
 
 .App_Container {
-  max-width: 1340px;
+  max-width: 1440px;
   margin: auto;
   margin-top: 100px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.App_SpotifyPlayerContainer {
+.App_SpotifyPlayer {
+  padding-bottom: 0 !important;
+  width: 100%;
   justify-content: center;
   display: flex;
-  iframe {
-    background-color: red;
-  }
 }

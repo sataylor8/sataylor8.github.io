@@ -6,7 +6,8 @@ export default function TrackList(props: { IconColor: string; Tracks: Track[] })
         return a.Submitters[0][0].localeCompare(b.Submitters[0][0]);
     })
     return (
-        <div className={"TrackList_Container"}>
+        <div  className={"TrackList_Container"}>
+        <div className={"TrackList_ContainerBG"}>
             <h3>Favorite Tracks:</h3>
             {props.Tracks.map(track => {
                 return (
@@ -30,6 +31,7 @@ export default function TrackList(props: { IconColor: string; Tracks: Track[] })
                     </>
                 )
             })}
+        </div>
         </div>
     )
 }

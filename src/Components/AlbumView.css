@@ -11,18 +11,25 @@
     min-width: 270px;
     max-width: 1000px;
     max-height: 1000px;
-    border: 1px solid black;
 }
 
 .AlbumArt_Image {
     width: 100%;
-    height: auto;;
+    height: auto;
+    border-radius: 12px;
 }
 
 .TrackList_Container {
     margin: auto;
-    margin-top: 70px;
     display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.TrackList_ContainerBG {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
 }
 
 .TrackList_Submitters {
@@ -30,6 +37,7 @@
     margin-top: -8px;
     font-size: large;
 }
+
 
 .TrackList_Title_Container {
     display: flex;
@@ -39,6 +47,7 @@
 .TrackList_Title_PlayButton {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .TrackList_Title {
