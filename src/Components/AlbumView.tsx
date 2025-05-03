@@ -9,10 +9,10 @@ export default function AlbumView(props: { album: Album }) {
         <Container className={"Album_Container"}>
             <Row>
                 <Col>
-                    <AlbumArtView artURL={props.album.ImageURl} />
+                    <AlbumArtView album={props.album} />
                 </Col>
                 <Col>
-                    <TrackList Tracks={props.album.FavoriteTracks} IconColor={props.album.IconColor} />
+                    <TrackList Tracks={props.album.FavoriteTracks} IconColor={props.album.ThemeColor} />
                 </Col>
             </Row>
         </Container>

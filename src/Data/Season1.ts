@@ -31,7 +31,7 @@ const Season1: Album[] = [
         }],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273029f1f3a1a118dc326687c34",
-        IconColor: "#595252"
+        ThemeColor: "#595252",
     },
     {
         Title: "Internet Arms",
@@ -63,7 +63,7 @@ const Season1: Album[] = [
         }],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b2731dd760490d0e54d81d27ed45",
-        IconColor: "#005f2f",
+        ThemeColor: "#005f2f",
     },
     {
         Title: "Fetch the Bolt Cutters",
@@ -73,7 +73,7 @@ const Season1: Album[] = [
         FavoriteTracks: [
             {
                 Title: "Shameika",
-                Submitters: ["Matt, stauffer"],
+            Submitters: ["Matt", "Stauffer"],
                 SpotifyUrl: "2pDKE8Q40TDGPl1O11DKKn"
             },
             {
@@ -92,7 +92,8 @@ const Season1: Album[] = [
         ],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273841292c1316c4bf85447bcd9",
-        IconColor: "#402038"
+        ThemeColor: "#402038",
+        InvertInfoIcon: true
     },
     {
         Title: "Soon it Will be Cold Enough",
@@ -119,7 +120,7 @@ const Season1: Album[] = [
         }],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273c2f076b3cbdac1b5cf3901f3",
-        IconColor: "#535353"
+        ThemeColor: "#535353"
     },
     {
         Title: "Masana Temples",
@@ -137,7 +138,7 @@ const Season1: Album[] = [
         }],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273a765313b610423c0f13aa59e",
-        IconColor: "#96281a"
+        ThemeColor: "#96281a"
     },
     {
         Title: "All Born Screaming",
@@ -153,7 +154,7 @@ const Season1: Album[] = [
             Submitters: ["Stauffer"],
             SpotifyUrl: "1kgLXgHrXecZyRCDROfAPb"
         },{
-            Title: "Power's out",
+            Title: "The Power's out",
             Submitters: ["Amanda", "Jordan"],
             SpotifyUrl: "3LLpaB6tOUeSZRAkHBUEPU"
         },{
@@ -163,7 +164,8 @@ const Season1: Album[] = [
         }],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273902e9fffc3787dd4fe7678e7",
-        IconColor: "#6c4d00"
+        ThemeColor: "#6c4d00",
+        InvertInfoIcon: true
     }
 ];
 

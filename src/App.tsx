@@ -20,8 +20,7 @@ function App() {
         <div className="App_SpotifyPlayer">
           <div id="SpotifyPlayer" />
         </div>
-      </div>
-      <Dropdown className={"App_Season_Dropdown"}>
+        <Dropdown className={"App_Season_Dropdown"}>
         <Dropdown.Toggle variant="secondary">
           Season
         </Dropdown.Toggle>
@@ -34,6 +33,7 @@ function App() {
           })}
         </Dropdown.Menu>
       </Dropdown>
+      </div>
       <div className={"App_Container"}>
         <SeasonView Albums={Seasons[activeSeason - 1]} />
       </div>

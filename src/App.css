@@ -12,9 +12,10 @@
 }
 
 .App_Season_Dropdown {
-  top: -80px;
-  left: 20px;
-  z-index: 1021;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  position: fixed !important;
 }
 
 .App_Container {
@@ -26,9 +27,10 @@
 .App_SpotifyPlayer {
   padding-bottom: 0 !important;
   width: 100%;
-  justify-content: center;
+  justify-content: left;
   display: flex;
   position: fixed;
-  z-index: 1020;
+  z-index: 1;
   margin-top: 10px;
+  margin-left: 10px;
 }
