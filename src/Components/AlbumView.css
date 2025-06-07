@@ -9,6 +9,7 @@
     width: 60vw;
     height: 60vw;
     min-width: 270px;
+    min-height: 270px;
     max-width: 950px;
     max-height: 950px;
 }

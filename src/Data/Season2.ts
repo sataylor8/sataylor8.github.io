@@ -32,13 +32,43 @@ const Season2: Album[] = [
     },
     {
         Title: "CLPPNG",
-        Artist: "Clippng.",
+        Artist: "clippng.",
         Date: new Date("5-31-25"),
         Submitter: "Stauffer",
-        FavoriteTracks: [],
+        FavoriteTracks: [{
+            Title: "Body & Blood",
+            Submitters: ["Stauffer"],
+            SpotifyUrl: "5TFwGYhhFWa92FZXyIB7K8"
+        },
+        {
+            Title: "Work Work",
+            Submitters: ["Peter"],
+            SpotifyUrl: "4Ninct3SYhYPFEZ5tNu4of"
+        },
+        {
+            Title: "Story 2",
+            Submitters: ["Mike"],
+            SpotifyUrl: "1UsHdJAj4Y1sMIqAh1mS02"
+        },
+        {
+            Title: "Dream",
+            Submitters: ["Amanda"],
+            SpotifyUrl: "2Eoqsnc3IolqM6pgi9qZvC"
+        }],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273007401d5c6714488fe208aa1",
         ThemeColor: "#535353"
+    },
+    {
+        Title: "Transangelic Exodus",
+        Artist: "Ezra Furman",
+        Date: new Date("7-11-25"),
+        Submitter: "Jordan",
+        FavoriteTracks: [],
+        LeastFavoritTracks: [],
+        ImageURl: "https://i.scdn.co/image/ab67616d0000b273b5a72c295b43659b6668d236",
+        ThemeColor: "#5e4f57",
+        InvertInfoIcon: true
     }
 ];
 
