@@ -64,10 +64,113 @@ const Season2: Album[] = [
         Artist: "Ezra Furman",
         Date: new Date("7-11-25"),
         Submitter: "Jordan",
-        FavoriteTracks: [],
+        FavoriteTracks: [{
+            Title: "Love You So Bad",
+            Submitters: ["Amanda", "Matt", "Peter"],
+            SpotifyUrl: "7I5YEoBfBLJnMfZCouNFCb"
+        },
+        {
+            Title: "No Place",
+            Submitters: ["Stauffer"],
+            SpotifyUrl: "0mngu208gHmIcG1E4esbBT"
+        },
+        {
+            Title: "Suck the Blood from My wound",
+            Submitters: ["Jordan"],
+            SpotifyUrl: "08udle8t4dGZzQ67AEs8X4"
+        },
+        {
+            Title: "Peel My Orange Every Morning",
+            Submitters: ["Mike"],
+            SpotifyUrl: "64WupAWGwxmlmriQS6cKfg"
+        }
+        ],
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273b5a72c295b43659b6668d236",
         ThemeColor: "#5e4f57",
+        InvertInfoIcon: true
+    },
+    {
+        Title: "Sound of Silver",
+        Artist: "LCD Soundsystem",
+        Date: new Date("8-15-25"),
+        Submitter: "Peter",
+        FavoriteTracks: [{
+            Title: "All My Friends",
+            Submitters: ["Peter", "Matt"],
+            SpotifyUrl: "2Ud3deeqLAG988pfW0Kwcl"
+        },
+        {
+            Title: "North American Scum",
+            Submitters: ["Stauffer"],
+            SpotifyUrl: "29ufIwomYfLbWBxPMdaUZm"
+        },
+        {
+            Title: "Someone Great",
+            Submitters: ["Jordan", "Amanda"],
+            SpotifyUrl: "2VGDntFPvgvqSiUf9ITEfW"
+        },
+        {
+            Title: "Get Innocuous!",
+            Submitters: ["Mike"],
+            SpotifyUrl: "0Ct2XTT4UBt9Y196i0Ido2"
+        },
+        ],
+        LeastFavoritTracks: [],
+        ImageURl: "https://i.scdn.co/image/ab67616d0000b273e6272ad26e7a55bc342a6dd0",
+        ThemeColor: "#545445",
+        InvertInfoIcon: true
+    },
+    {
+        Title: "3D Country",
+        Artist: "Geese",
+        Date: new Date("10-04-25"),
+        Submitter: "Mike",
+        FavoriteTracks: [{
+            Title: "2122",
+            Submitters: ["Matt", "Jordan"],
+            SpotifyUrl: "2XUQ0AYl4HPE0oK0qt70qw"
+        },
+        {
+            Title: "Mysterious Love",
+            Submitters: ["Stauffer", "Amanda"],
+            SpotifyUrl: "6SRJRU4jsABJpJ6upuU90y"
+        },
+        {
+            Title: "Cowboy Nudes",
+            Submitters: ["Mike"],
+            SpotifyUrl: "a5vtJPJsiwW5BZAYo8Nla0n"
+        }
+        ],
+        LeastFavoritTracks: [],
+        ImageURl: "https://i.scdn.co/image/ab67616d0000b2738af65a82cdd9104f19e4047b",
+        ThemeColor: "#005491",
+        InvertInfoIcon: true
+    },
+    {
+        Title: "Jagged Little Pill",
+        Artist: "Alanis Morissette",
+        Date: new Date("11-15-25"),
+        Submitter: "Amanda",
+        FavoriteTracks: [{
+            Title: "You Oughta Know",
+            Submitters: ["Stauffer", "Amanda"],
+            SpotifyUrl: "0Dw9z44gXhplDh5HCWZIxP"
+        },
+        {
+            Title: "Head Over Feet",
+            Submitters: ["Jordan"],
+            SpotifyUrl: "36sZlJgvmP62qcEuAaV1uM"
+        },
+        {
+            Title: "Hand in My Pocket",
+            Submitters: ["Mike"],
+            SpotifyUrl: "3ArPxT1Wt0Yse6kBeCqGFe"
+        }
+        ],
+        LeastFavoritTracks: [],
+        ImageURl: "https://i.scdn.co/image/ab67616d0000b27392c885317fbe4bfa680109b4",
+        ThemeColor: "#195d47",
         InvertInfoIcon: true
     }
 ];
