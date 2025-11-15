@@ -119,7 +119,7 @@ const Season2: Album[] = [
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b273e6272ad26e7a55bc342a6dd0",
         ThemeColor: "#545445",
-        InvertInfoIcon: true
+        InvertInfoIcon: false
     },
     {
         Title: "3D Country",
@@ -145,7 +145,7 @@ const Season2: Album[] = [
         LeastFavoritTracks: [],
         ImageURl: "https://i.scdn.co/image/ab67616d0000b2738af65a82cdd9104f19e4047b",
         ThemeColor: "#005491",
-        InvertInfoIcon: true
+        InvertInfoIcon: false
     },
     {
         Title: "Jagged Little Pill",
